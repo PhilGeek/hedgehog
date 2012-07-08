@@ -33,20 +33,6 @@
 \setsansfont{Gill Sans}
 \setmonofont{Inconsolata}
 
-% Section Formatting
-% \usepackage[]{titlesec}
-% \titleformat{\section}[hang]{\fontsize{14}{14}\scshape}{\S{\thesection}}{.5em}{}{}
-% \titleformat{\subsection}[hang]{\fontsize{12}{12}\scshape}{\S{\thesubsection}}{.5em}{}{}
-% \titleformat{\subsubsection}[hang]{\fontsize{12}{12}\scshape}{\S{\thesubsubsection}}{.5em}{}{}
-
-% TODO List
-% \usepackage{color}
-% \usepackage{index} % use index package to create indices
-% \newindex{todo}{tod}{tnd}{TODO List} % start todo list
-% \newindex{fixme}{fix}{fnd}{FIXME List} % start fixme list
-% \newcommand{\todo}[1]{\textcolor{blue}{TODO: #1}\index[todo]{#1}} % macro for todo entries
-% \newcommand{\fixme}[1]{\textcolor{red}{FIXME: #1}\index[fixme]{#1}} % macro for fixme entries
-
 % Bibliography
 \usepackage[round]{natbib} 
 
@@ -57,19 +43,16 @@
 \date{} % Leave blank for no date, comment out for most recent date
 
 % PDF Stuff
-% \usepackage[plainpages=false, pdfpagelabels, bookmarksnumbered, backref, pdftitle={\mytitle}, pagebackref, pdfauthor={\myauthor}, pdfkeywords={\mykeywords}, xetex, colorlinks=true, citecolor=gray, linkcolor=gray, urlcolor=gray]{hyperref} 
+\usepackage[plainpages=false, pdfpagelabels, bookmarksnumbered, backref, pdftitle={\mytitle}, pagebackref, pdfauthor={\myauthor}, pdfkeywords={\mykeywords}, xetex, colorlinks=true, citecolor=gray, linkcolor=gray, urlcolor=gray]{hyperref} 
 
 %%% BEGIN DOCUMENT
 \begin{document}
 
 % Title Page
 \maketitle
-% \begin{abstract} % optional
-% \noindent
-% \end{abstract} 
+ 
 \vskip 2em \hrule height 0.4pt \vskip 2em
 % Main Content
-% \epigraph{}
 
 % Layout Settings
 \setlength{\parindent}{1em}
